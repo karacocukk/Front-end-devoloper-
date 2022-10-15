@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .full-page {
+            background-color: palevioletred;
+        }
+
+        .ingredients {
+            position: relative;
+            left: 30%;
+            width: 768px;
+        }
+
+        .second-class {
+            background-color: brown;
+            display: inline-block;
+        }
+        #first-id{
+            position: relative;
+            float: right;
+        }
+    </style>
+</head>
+
+<body class="full-page">
+    <div>
+        <!-- Kek tarifi- Tanıtım - başlang
+    ç -->
+        <div>
+            <h1>...Sade Kek Tarifi...</h1>
+            <p><b>Yumuşacık ve fırından eve yayılan o miss gibi kokusu ile anne elli değmiş sade kek tarifini sizlerle
+                    paylaşıyorum</b></p>
+            <p><b>Tarif:</b>Rukiye Beyza Sarikaya</p>
+        </div>
+        <!-- Kek tarifi- Tanıtım - bitiş -->
+        <p><b>Kaç Kişilik</b>:4 Kişilik<b> Hazırlama Süresi:</b>30 Dakika<b> Pisirme Süresi:</b>10 Dakika</p>
+        <!-- Kek tarifi- Tanıtım - Malzemeler - başlanıç -->
+        <section class="ingredients">
+            <h3 class="second-class">Malzemeler</h3>
+            <ul>
+                <li>3 adet yumurta</li>
+                <li>1 su bardağı şeker</li>
+                <li>Yarım su bardağı sıvı yağ</li>
+                <li>1 su bardağı süt</li>
+                <li>1 paket kabartma tozu</li>
+                <li>1 paket vanilya</li>
+                <li>Un ( yaklaşık 2,5 su bardağı kadar)</li>
+            </ul>
+            <h3 class="second-class">Sade Kek Tarifi Nasıl Yapılır?</h3>
+            <ol>
+                <li>İlk olarak kekimizin hamurunu hazırlıyoruz. Yumurta ve şeker iyice çırpılır.</li>
+                <li>İlk olarak kekimizin hamurunu hazırlıyoruz. Yumurta ve şeker iyice çırpılır.</li>
+                <li>Kuru malzemeleri eleyerek ilave etmekte fayda var. Kek hamurumuz hazır.</li>
+                <li>Kekimizi pişmeye bırakıyoruz. Sade kek hamurumu yağlanmış kek kalıbına dökülür.</li>
+                <li>160 derecede önceden ısıtılmış fırında yaklaşık 50 dk kadar pişirilir. Pişirme esnasında ilk 30 dk
+                    kapağı açmayalım.<br> 30 dk sonrasında da kabarmış ve üzeri pembeleşmiş kekimizi gözlemlemeye
+                    başlayabilirsiniz.<br> Kenarlar kalıptan ayrılmış kekimizi kürdan testini de yaptıktan sonra fırından
+                    alıp soğumaya bırakabiliriz.</li>
+                <li>Pişen keki kalıptan çıkartıyoruz. Fırından aldıktan en az 15 dk kadar sonra ilk sıcaklığı çıkan
+                    yumuşacık sade keki kalıptan çıkartabilirsiniz.</li>
+            </ol>
+            
+            <p id="first-id"><b>Afiyet Olsun</b></p>
+        </section>
+
+    </div>
+</body>
+
+</html>
