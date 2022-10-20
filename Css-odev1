@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyCars</title>
+
+    <link rel="shortcut icon" href="https://wallpaperaccess.com/full/35799.jpg" type="image/x-icon"><link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;1,300;1,400&display=swap" rel="stylesheet">
+    <style>
+        
+body{
+    background-color: rgb(230, 225, 225);
+   
+}
+ul{
+    text-align:center;
+}
+ul li{
+    display:inline-block;
+    *display:inline; /*IE7*/
+    *zoom:1; 
+    font-weight: bold;
+    font-size: 16px;
+}
+
+ul li a {
+    background-color:rgb(142, 189, 198);
+    padding: 10px;
+    
+}
+a:hover{
+    color: rgb(51, 155, 162);
+}
+
+.article-class{
+    width: 32%;
+    float: left;
+    padding: 1px;
+
+
+}
+.article-class img{width: 100%;
+}
+.article-class h3{
+    text-align: center;
+    font-family:'Times New Roman', serif;
+    font-style: italic;
+}
+.section-class{
+    width: 100%;
+    float: left;
+}
+
+    </style>
+</head>
+<body>
+    <nav class="first-class">
+        <ul>
+            <li><a href="ödev3.html">AnaSayfa</a></li>
+            <li><a href="https://www.google.com/">Google</a></li>
+            <li><a href="https://www.google.com/">Youtube</a></li>
+        </ul>
+    </nav>
+    <br>
+    <center><h2 style="color:rgb(142, 189, 198);">MyCars</h2></center>
+    <section class="section-class">
+        <article  class="article-class"><img   src="https://wallpaperaccess.com/full/35801.jpg"  width="500px"  alt="Ferrari">
+            <h3>HP:730</h3>
+            <h3>LİKE:10/8</h3>
+            <h3>Marka:Ferrari</h3>
+            
+        </article>
+        <article class="article-class"><img  src="https://wallpaperaccess.com/full/27982.jpg" alt="Lamborghini" width="500px" >
+            <h3>HP:750</h3>
+            <h3>LİKE:10/9</h3>
+            <h3>Marka:Lamborghini</h3>
+        </article>
+        <article class="article-class"><img  src="https://wallpaperaccess.com/full/873202.jpg" alt="Porche" width="500px" >
+            <h3>HP:680</h3>
+            <h3>LİKE:10/7</h3>
+            <h3>Marka:Porsche</h3>
+        </article>
+
+    </section>
+</body>
+</html>
